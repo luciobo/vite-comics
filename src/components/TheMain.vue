@@ -1,7 +1,7 @@
 <template>
-    <div class="d-flex ">
-        <div class="row mx-3 text-center ">
-            <div class="col-2">
+    <div class="">
+        <div class="row mx-3 d-flex justify-content-between py-5">
+            <div class="col-2 align-self-center ">
                 <img src="/buy-comics-subscriptions.png" alt="">
                 <span class="text-light px-2">testo</span>
             </div>
@@ -21,10 +21,14 @@
                 <img src="/buy-comics-subscriptions.png" alt="">
                 <span class="text-light px-2">testo</span>
             </div>
-
         </div>
     </div>
 </template>
 
-<style>
+<style scoped>
+
+img {
+    width: 50px;
+}
+
 </style>
