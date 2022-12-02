@@ -3,10 +3,11 @@ import TheHeader from "./components/TheHeader.vue"
 import TheMain from "./components/TheMain.vue"
 import TheFooter from "./components/TheFooter.vue"
 import BarraSottoNav from "./components/BarraSottoNav.vue"
+import Jumbotron from "./components/Jumbotron.vue"
 
 
 export default {
-  components: { TheHeader, TheMain, TheFooter, BarraSottoNav },
+  components: { TheHeader, TheMain, TheFooter, BarraSottoNav, Jumbotron},
 
   data() {
     return {
@@ -30,6 +31,9 @@ export default {
     </div>
     <div class="background-card">
       <TheMain class="container"></TheMain>
+    </div>
+    <div class="background-jumbotron">
+      <Jumbotron class="container"></Jumbotron>
     </div>
     <div>
       <TheFooter class="container"></TheFooter>
