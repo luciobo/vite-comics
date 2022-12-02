@@ -2,31 +2,42 @@
 import TheHeader from "./components/TheHeader.vue"
 import TheMain from "./components/TheMain.vue"
 import TheFooter from "./components/TheFooter.vue"
+import BarraSottoNav from "./components/BarraSottoNav.vue"
+
 
 export default {
-  components: { TheHeader, TheMain, TheFooter},
-  
-  data() {
-        return {
-            
-        };
-    },
-    methods: {},
+  components: { TheHeader, TheMain, TheFooter, BarraSottoNav },
 
-    beforeMount() {},
+  data() {
+    return {
+
+    };
+  },
+  methods: {},
+
+  beforeMount() { },
 }
 </script>
 
 
 <template>
-  <div class="container">
-    <TheHeader></TheHeader>
-    <TheMain></TheMain>
-    <TheFooter></TheFooter>
+  <div class="">
+    <div>
+      <TheHeader class="container"></TheHeader>
+    </div>
+    <div class="background-nav-inf d-flex align-items-center ">
+      <BarraSottoNav class="container"></BarraSottoNav>
+    </div>
+    <div class="background-card">
+      <TheMain class="container"></TheMain>
+    </div>
+    <div>
+      <TheFooter class="container"></TheFooter>
+    </div>
   </div>
 
 </template>
 
 <style lang="scss">
-	@use "./styles/general.scss";
+@use "./styles/general.scss";
 </style>
