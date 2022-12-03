@@ -1,38 +1,46 @@
 <template>
     <div class="py-5 position-relative ">
         <div class="row">
-            <div class="col-4 text-light d-flex flex-wrap g-5">
+            <div class="col-1 text-light d-flex flex-column gx-5">
                 <ul>
-                    <li class="fs-4">DC COMICS</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
+                    <li class="fs-5">DC COMICS</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
                 </ul>
                 <ul>
-                    <li class="fs-4">DC COMICS</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
+                    <li class="fs-5">SHOP</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
                 </ul>
+            </div>
+            <div class="col-1 text-light d-flex gx-5">
                 <ul>
-                    <li class="fs-4">DC COMICS</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
+                    <li class="fs-5">DC</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
                 </ul>
+            </div>
+            <div class="col-1 text-light d-flex gx-5">
                 <ul>
-                    <li class="fs-4">DC COMICS</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
-                    <li class="text-secondary">testo</li>
+                    <li class="fs-5">SITE</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
+                    <li class="text-secondary colore-testo-link">testo</li>
                 </ul>
             </div>
         </div>
@@ -46,10 +54,15 @@
 
 img {
     position: absolute;
-    top: -5%;
+    top: -15%;
     left: 50%;
-    rotate: 30%;
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
+    width: 450px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
 }
 
 </style>

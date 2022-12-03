@@ -7,8 +7,8 @@
             <div class="mx-3 ">
                 <ul class="d-flex m-0">
                     <li class="p-2"
-                    v-for="(listaLinkHTML, i) in listaLinkNav">
-                        <a href="">{{listaLinkHTML.testo}}</a>
+                        v-for="(listaLinkHTML, i) in listaLinkNav">
+                        <a class="colore-testo-link" href="">{{ listaLinkHTML.testo }}</a>
                     </li>
                 </ul>
             </div>
@@ -24,23 +24,23 @@ export default {
             listaLinkNav: [
                 {
                     testo: "CHARACTERS",
-                },{
+                }, {
                     testo: "COMICS",
-                },{
+                }, {
                     testo: "MOVIES",
-                },{
+                }, {
                     testo: "TV",
-                },{
+                }, {
                     testo: "SGAMES",
-                },{
+                }, {
                     testo: "COLLECTIRIES",
-                },{
+                }, {
                     testo: "VIDEOS",
-                },{
+                }, {
                     testo: "FANS",
-                },{
+                }, {
                     testo: "NEWS",
-                },{
+                }, {
                     testo: "SHOP",
                 },
             ]
@@ -52,11 +52,13 @@ export default {
 </script>
 
 <style scoped>
-    a {
-        text-decoration: none;
-    }
+a {
+    text-decoration: none;
+}
 
-    img {
-        width: 80px;
-    }
+img {
+    width: 80px;
+}
+
+
 </style>
