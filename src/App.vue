@@ -35,7 +35,7 @@ export default {
     <div class="background-jumbotron">
       <Jumbotron class="container"></Jumbotron>
     </div>
-    <div>
+    <div class="background-footer">
       <TheFooter class="container"></TheFooter>
     </div>
   </div>

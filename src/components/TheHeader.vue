@@ -6,35 +6,9 @@
             </div>
             <div class="mx-3 ">
                 <ul class="d-flex m-0">
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
-                    </li>
-                    <li class="p-2">
-                        <a href="">ciao</a>
+                    <li class="p-2"
+                    v-for="(listaLinkHTML, i) in listaLinkNav">
+                        <a href="">{{listaLinkHTML.testo}}</a>
                     </li>
                 </ul>
             </div>
@@ -47,7 +21,29 @@ export default {
 
     data() {
         return {
-            messaggio: "la mia prima app in vite... "
+            listaLinkNav: [
+                {
+                    testo: "CHARACTERS",
+                },{
+                    testo: "COMICS",
+                },{
+                    testo: "MOVIES",
+                },{
+                    testo: "TV",
+                },{
+                    testo: "SGAMES",
+                },{
+                    testo: "COLLECTIRIES",
+                },{
+                    testo: "VIDEOS",
+                },{
+                    testo: "FANS",
+                },{
+                    testo: "NEWS",
+                },{
+                    testo: "SHOP",
+                },
+            ]
         };
     },
     methods: {},
