@@ -26,8 +26,8 @@ export default {
     <div>
       <TheHeader class="container"></TheHeader>
     </div>
-    <div class="background-nav-inf d-flex align-items-center ">
-      <BarraSottoNav class="container"></BarraSottoNav>
+    <div class="background-nav-inf">
+      <BarraSottoNav class=""></BarraSottoNav>
     </div>
     <div class="background-card">
       <TheMain class="container"></TheMain>
