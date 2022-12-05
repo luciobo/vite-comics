@@ -4,6 +4,9 @@
     <div>
         <div class="jumbotron-mini">
         </div>
+        <div class="container">
+            <button class="btn btn-primary button-current-series">CURRENT SERIES</button>
+        </div>
         <div class="container ">
             <div class="row g-4 py-5">
                 <div class="col-2"
@@ -17,8 +20,8 @@
                 </div>
             </div>
         </div>
-        <div>
-            
+        <div class="text-center py-3">
+            <button class="btn btn-primary button-load-more">LOAD MORE</button>
         </div>
     </div>
 
@@ -54,4 +57,17 @@ export default {
     background-color: #1C1C1C;
     border: none;
 }
+
+.button-load-more {
+    border-radius: 0;
+    padding: .3rem 3rem;
+}
+
+.button-current-series {
+    border-radius: 0;
+    padding: .3rem 1rem;
+    position: relative;
+    bottom: 15px;
+}
+
 </style>
