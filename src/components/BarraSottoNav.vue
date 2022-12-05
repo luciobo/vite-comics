@@ -8,7 +8,7 @@
             <button class="btn btn-primary button-current-series">CURRENT SERIES</button>
         </div>
         <div class="container ">
-            <div class="row g-4 py-5">
+            <div class="row g-4 py-4">
                 <div class="col-2"
                     v-for="(stampaCard, i) in newEroiDc">
                     <div class="card h-100 bg-card text-light ">
@@ -67,7 +67,7 @@ export default {
     border-radius: 0;
     padding: .3rem 1rem;
     position: relative;
-    bottom: 15px;
+    bottom: 18px;
 }
 
 </style>
