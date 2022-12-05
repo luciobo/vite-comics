@@ -1,29 +1,34 @@
 <template>
     <div class="">
         <div class="row mx-3 d-flex justify-content-between py-5">
-            <div class="col-2">
-                <img src="/buy-comics-subscriptions.png" alt="">
-                <span class="text-light px-2">testo</span>
-            </div>
-            <div class="col-2">
-                <img src="/buy-comics-subscriptions.png" alt="">
-                <span class="text-light px-2">testo</span>
-            </div>
-            <div class="col-2">
-                <img src="/buy-comics-subscriptions.png" alt="">
-                <span class="text-light px-2">testo</span>
-            </div>
-            <div class="col-2">
-                <img src="/buy-comics-subscriptions.png" alt="">
-                <span class="text-light px-2">testo</span>
-            </div>
-            <div class="col-2">
-                <img src="/buy-comics-subscriptions.png" alt="">
-                <span class="text-light px-2">testo</span>
+            <div class="col-2 d-flex align-items-center"
+            v-for="(stampaCardShop, i) in newContenutoCard">
+                <img :src="stampaCardShop.icon" alt="">
+                <span class="text-light px-3">{{stampaCardShop.name}}</span>
             </div>
         </div>
     </div>
 </template>
+
+
+<script>
+
+import { itemsBannerMain } from "../Composables/cardShop"
+
+export default {
+
+    data() {
+        return {
+            newContenutoCard: itemsBannerMain
+        };
+    },
+    methods: {},
+
+    beforeMount() {},
+
+}
+
+</script>
 
 <style scoped>
 
