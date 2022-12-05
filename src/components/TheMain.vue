@@ -4,7 +4,9 @@
             <div class="col-2 d-flex align-items-center"
             v-for="(stampaCardShop, i) in newContenutoCard">
                 <img :src="stampaCardShop.icon" alt="">
-                <span class="text-light px-3">{{stampaCardShop.name}}</span>
+                <span class="text-light px-3">
+                    <a class="text-light text-decoration-none" href="">{{stampaCardShop.name}}</a>
+                </span>
             </div>
         </div>
     </div>

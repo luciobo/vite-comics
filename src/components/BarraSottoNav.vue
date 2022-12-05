@@ -14,7 +14,7 @@
                     <div class="card h-100 bg-card text-light ">
                         <img :src="stampaCard.thumb" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">{{ stampaCard.series }}</h5>
+                            <a class="text-light text-decoration-none" href="">{{stampaCard.series}}</a>
                         </div>
                     </div>
                 </div>
